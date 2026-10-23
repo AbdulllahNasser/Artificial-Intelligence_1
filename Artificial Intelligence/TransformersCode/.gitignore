@@ -1,0 +1,6 @@
+*.bin
+*.safetensors
+*.pt
+*.pth
+__pycache__/
+*.zip

@@ -1,0 +1,25 @@
+# Python environments
+venv/
+.venv/
+__pycache__/
+
+# Large AI model files
+*.pt
+*.safetensors
+
+# Large dataset
+fer2013.csv
+
+# Training checkpoints
+checkpoint-*/
+
+# Nested Git repository metadata
+**/.git/
+
+# Notebooks containing API credentials
+**/Finetune_Gpt.ipynb
+**/OpenAi API.ipynb
+**/Prompt_Engineering.ipynb
+**/bool.ipynb
+**/DeepSeek-examples.ipynb
+**/deepseek-Groq.ipynb
